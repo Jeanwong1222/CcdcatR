@@ -1,0 +1,12 @@
+Package: CcdcatR
+Type: Package
+Title: The Constrained CD-CAT 
+Version: 0.0.0.9000
+Date: 2024-12-25
+Authors@R: c(person("Jing", "Huang", role = c("aut", "cre", "cph"), email = "jing.huang1222@gmail.com", comment = c(ORCID = "0009-0007-9235-6950")),person("Shiyu", "Wang", role = c("aut", "cph")), person("Huahua", "Chang", role = c("aut","cph")))
+Description: Provides a set of functions for conducting cognitive diagnostic computerized adaptive testing applications, focusing on content areas and attributes balancing. It includes two item selection rules: (1) The posterior-weighted Kullback-Leibler index (PWKL; Cheng, 2009; Sorrel et al., 2021; Kaplan et al., 2015); (2) The Jensen-Shannon divergence index (JSD; Kang et al., 2017; Yigit et al., 2018; Sorrel et al., 2021).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Maintainer: Jing Huang <jing.huang1222@gmail.com>
+RoxygenNote: 7.3.2.9000
