@@ -3,8 +3,7 @@
 #' @param alpha_true The true attribute pattern of the examinee.
 #' @param alpha_estimated The estimated attribute pattern of the examinee.
 #' @details I is the indicator function.
-#' @export
-#' PCCR()
+#' @export PCCR
 
 PCCR <- function(alpha_true, alpha_estimated){
   N <- dim(alpha_true)[1]

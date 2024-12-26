@@ -5,8 +5,7 @@
 #' @param guess slipping parameters for all answered items.
 #' @param eta a value of 1 if examinee i possesses all the skills required for item j, otherwise 0.
 #' @details for one person, resp are vectors; for more than one person, resp is a matrix.
-#' @export
-#' response_gen()
+#' @export response_gen
 
 
 response_gen <- function(N,slip,guess,eta){

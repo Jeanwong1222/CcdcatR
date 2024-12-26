@@ -5,8 +5,7 @@
 #' @param Q the Q matrix for all answered items.
 #' @return eta 1 indicates the required attributes are mastered, 0 otherwise.
 #' @details for one person, alpha & eta are vectors; for more than one person, alpha & eta are matrices.
-#' @export
-#' ETA()
+#' @export ETA
 
 ETA <- function(N,alpha,Q){
   J <- nrow(Q)

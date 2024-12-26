@@ -4,8 +4,7 @@
 #' @param K the number of attributes.
 #' @param KS_estimation the current KS estimation results.
 #' @details prior is the uniform distribution.
-#' @export
-#' PWKLest()
+#' @export PWKLest
 
 PWKLest <- function(K,unused_items,KS_estimate){
   LC_prob <- LCprob(K,unused_items)

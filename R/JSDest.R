@@ -3,8 +3,7 @@
 #' @param unused_items the unused items from the whole itembank including item_id, slip, guess, 4 attributes, content area.
 #' @param K the number of attributes.
 #' @details prior is the uniform distribution.
-#' @export
-#' JSDest()
+#' @export JSDest
 
 JSDest <- function(K,unused_items){
   LC_prob <- LCprob(K,unused_items)

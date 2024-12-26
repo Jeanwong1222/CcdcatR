@@ -3,8 +3,7 @@
 #' @param alpha_true The true attribute pattern of the examinee.
 #' @param alpha_estimated The estimated attribute pattern of the examinee.
 #' @details K is the number of attributes.
-#' @export
-#' ACCR()
+#' @export ACCR
 
 ACCR <- function(alpha_true, alpha_estimated){
   N <- nrow(alpha_true)

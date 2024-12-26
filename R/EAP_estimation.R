@@ -4,8 +4,7 @@
 #' @param response the responses of one examinee.
 #' @param K the number of attributes.
 #' @details prior is the uniform distribution.
-#' @export
-#' EAP_estimation()
+#' @export EAP_estimation
 
 EAP_estimation <- function(itembank,response,K){
   J <- nrow(itembank)

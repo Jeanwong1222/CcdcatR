@@ -5,8 +5,7 @@
 #' @param guess slipping parameters for all answered items.
 #' @param eta a value of 1 if examinee i possesses all the skills required for item j, otherwise 0.
 #' @details for one person, eta & p are vectors; for more than one person, eta & p are matrices.
-#' @export
-#' P_DINA()
+#' @export P_DINA
 
 P_DINA <- function(N,slip,guess,eta){
   J <- length(slip)

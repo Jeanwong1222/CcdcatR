@@ -3,8 +3,7 @@
 #' @param unused_items the unused items from the whole itembank including item_id, slip, guess, 4 attributes, content area.
 #' @param K the number of attributes.
 #' @details success probabilities for each category for all latent classes.
-#' @export
-#' LCprob()
+#' @export LCprob
 
 LCprob <- function(K,unused_items){
   vec <- c(0,1)

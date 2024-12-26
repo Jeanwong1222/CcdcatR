@@ -5,8 +5,7 @@
 #' @param p the probability of the correct answer on item j for examinee i.
 #' @param X the responses of one examinee or examinees.
 #' @details for one person, p & X are vectors; for more than one person, p & X are matrices.
-#' @export
-#' Xi_likelihood()
+#' @export Xi_likelihood
 
 Xi_likelihood <- function(N,J,p,X){
   if (N==1){
